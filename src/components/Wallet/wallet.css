@@ -1,0 +1,35 @@
+.wallet-connector {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wallet-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.connected {
+  background-color: #4caf50;
+}
+
+/* Override wallet adapter styles if needed */
+.wallet-adapter-button {
+  background-color: #512da8;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #673ab7;
+}
+
+.wallet-adapter-dropdown {
+  display: inline-flex;
+} 
